@@ -1,0 +1,131 @@
+{
+  "http_response_code": 200,
+  "client_ref_num": "d213a052-c3b5-4ac2-a822-bab707075b95",
+  "request_id": "dg7911dc",
+  "result_code": 101,
+  "mobile": "",
+  "result": {
+    "uan": [
+      "100181642630"
+    ],
+    "summary": {
+      "recent_employer_data": {
+        "member_id": "PYKRP00000240000012550",
+        "establishment_id": "PYKRP0000024000",
+        "date_of_exit": "",
+        "date_of_joining": "1998-12-01",
+        "establishment_name": "HAL SERVICE DIVISION",
+        "employer_confidence_score": null,
+        "matching_uan": "100181642630",
+        "epfo": {
+          "is_recent": true,
+          "is_name_unique": false,
+          "has_pf_filings_details": true
+        }
+      },
+      "matching_uan": "100181642630",
+      "is_employed": true,
+      "employee_name_match": true,
+      "employer_name_match": null,
+      "uan_count": 1,
+      "date_of_exit_marked": false
+    },
+    "uan_details": {
+      "100181642630": {
+        "basic_details": {
+          "gender": "MALE",
+          "date_of_birth": "1970-04-01",
+          "employee_confidence_score": 0.9,
+          "name": "K NAGARAJA",
+          "mobile": "",
+          "aadhaar_verification_status": 1
+        },
+        "employment_details": {
+          "member_id": "PYKRP00000240000012550",
+          "establishment_id": "PYKRP0000024000",
+          "date_of_exit": "",
+          "date_of_joining": "1998-12-01",
+          "leave_reason": "",
+          "establishment_name": "HAL SERVICE DIVISION",
+          "employer_confidence_score": null
+        },
+        "additional_details": {
+          "aadhaar": "********8711",
+          "member_id": "PYKRP00000240000012550",
+          "email": "n***********1@gmail.com",
+          "pan": "AC******8L",
+          "bank_ifsc": "SBIN*****61",
+          "bank_acc_no": "*******2690",
+          "bank_address": "STATE BANK OF INDIA,AERO ENGINE FACTORY",
+          "relation": "F",
+          "relative_name": "KRISHNAPPA"
+        }
+      }
+    },
+    "uan_source": [
+      {
+        "uan": "100181642630",
+        "source": "pan"
+      }
+    ],
+    "name_dob_filtering_score": null,
+    "epfo_details": {
+      "matches": [
+        {
+          "name": "K NAGARAJA",
+          "confidence": 1,
+          "epf_history": {
+            "AUG-24": "true",
+            "JUL-24": "true",
+            "JUN-24": "true"
+          }
+        },
+        {
+          "name": "K NAGARAJA",
+          "confidence": 1,
+          "epf_history": {
+            "AUG-24": "true",
+            "JUL-24": "true",
+            "JUN-24": "true"
+          }
+        },
+        {
+          "name": "K NAGARAJA",
+          "confidence": 1,
+          "epf_history": {
+            "AUG-24": "true",
+            "JUL-24": "true",
+            "JUN-24": "true"
+          }
+        }
+      ],
+      "pf_filing_details": [
+        {
+          "total_amount": 15632067,
+          "employees_count": 10829,
+          "wage_month": "AUG-24"
+        },
+        {
+          "total_amount": 15700799,
+          "employees_count": 10879,
+          "wage_month": "JUL-24"
+        },
+        {
+          "total_amount": 15749323,
+          "employees_count": 10918,
+          "wage_month": "JUN-24"
+        }
+      ],
+      "establishment_info": {
+        "establishment_id": "PYKRP0000024000",
+        "establishment_name": "HAL SERVICE DIVISION",
+        "date_of_setup": "1952-11-01",
+        "ownership_type": "Central Public Sector Undertaking"
+      }
+    }
+  },
+  "input_data": {
+    "employee_name": "NAGARAJA K",
+    "pan": "ACSPN5708L"
+  }
+}

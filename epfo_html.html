@@ -1,0 +1,62 @@
+<div class="panel-body in" style="height: auto;">
+                <form id="employerSearchForm" name="EmployerSearchForm" class="form-horizontal" action="#" method="post">
+                    <div class="form-group">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <div style=" text-align: left;"><b style="color: red;">*</b>
+                               Details can be searched through part of establishment name and/or establishment code number(only 7 digits)</div><br>
+                        </div>
+                    </div>        
+                    <div class="form-group">
+                        <label class="col-sm-7 col-md-6 col-lg-6 control-label" style="text-align: right;font-size: 11.5px;">
+                            Name of Establishment : 
+                        </label>
+                        <div class="col-sm-5 col-md-4 col-lg-4">
+                            <input id="estName" name="estName" placeholder="Enter any part of Establishment Name" class="form-control input-lg" type="text" maxlength="100" style="width:200px;">
+                            <input type="hidden" id="parentIdSub" name="parentIdSub" value="">
+                            <input type="hidden" id="tName" name="tName" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-7 col-md-6 col-lg-6 control-label" style="text-align: right;font-size: 11.5px;">
+                            Code Number (Enter Number Only) :  
+                        </label>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <input id="estCode" name="estCode" placeholder="Enter 7 Digit Establishment Code" class="form-control input-lg" type="text" maxlength="7" onblur="validateSevenDigit(this.value)" onkeypress="return isNumber(event)" style="width:200px;">
+                            <input type="hidden" name="estFromChild" id="estFromChild" value="">
+                            <input type="hidden" name="fromChildData" id="fromChildData" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-7 col-md-6 col-lg-6 control-label" style="text-align: right;font-size: 11.5px;">
+                        </label>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+
+                            <div id="captchaImg">
+                                <img name="capImg" id="capImg" style="height: 50px;width: 190px;" src="/publicPortal/no-auth/captcha/createCaptcha?_HDIV_STATE_=14-3-D7012017D40E14CF14799B61263E9C67">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-7 col-md-6 col-lg-6 control-label" style="text-align: right;font-size: 11.5px;">
+                            Enter Captcha : 
+                        </label>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <input id="captcha" name="captcha" class="form-control input-lg" type="text" style="width:200px;">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-7 col-md-6 col-lg-6">
+                        </div>
+                        <div class="col-sm-3 col-md-2 col-lg-2">
+                            <input type="button" id="searchEmployer" style="height: 30px; text-align: center;" name="Search" class="btn btn-primary" value="Search" onclick="fnSearchEstb('/publicPortal/no-auth/estSearch/searchEstablishment?_HDIV_STATE_=14-0-D7012017D40E14CF14799B61263E9C67');
+                                    return false;">
+                            <input type="button" style="height: 30px; text-align: center;" class="btn btn-primary" value="Reset" onclick="fnReset('/publicPortal/no-auth/estSearch/loadEstSearchHome?_HDIV_STATE_=14-1-D7012017D40E14CF14799B61263E9C67');
+                                    return false;">
+<!--                            <button class="btn btn-info btn-md btn-reset" name="btnReset" onclick="fnReset('/publicPortal/no-auth/estSearch/loadEstSearchHome?_HDIV_STATE_=14-1-D7012017D40E14CF14799B61263E9C67');
+                                    return false;"><i class="fa fa-refresh"></i> Reset</button>-->
+
+                        </div>
+                    </div>
+                </form>
+            </div>

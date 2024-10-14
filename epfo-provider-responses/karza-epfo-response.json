@@ -1,0 +1,52 @@
+{
+  "requestId": "8560cb1a-22bf-4cbc-bcbe-5453a8d608ce",
+  "result": {
+    "organizationName": "H A L",
+    "epfHistory": [
+      {
+        "totalAmount": 12244667,
+        "totalMembers": 8788,
+        "formatted_wage_month": "2408",
+        "wageMonth": "AUG-24"
+      },
+      {
+        "totalAmount": 10752643,
+        "totalMembers": 7518,
+        "formatted_wage_month": "2407",
+        "wageMonth": "JUL-24"
+      },
+      {
+        "totalAmount": 12276419,
+        "totalMembers": 8823,
+        "formatted_wage_month": "2406",
+        "wageMonth": "JUN-24"
+      }
+    ],
+    "estInfo": [
+      {
+        "address": "BALANAGAR",
+        "contactNo": "04023878281",
+        "emailId": "vaddiparthi@hal-india.com",
+        "estId": "APKKP0002675000"
+      }
+    ],
+    "matches": [
+      {
+        "name": "NAGARAJ K",
+        "confidence": 0.9533516146734418,
+        "estId": "APKKP0002675000",
+        "epfHistory": {
+          "AUG-24": true,
+          "JUL-24": "NA",
+          "JUN-24": true
+        }
+      }
+    ],
+    "isNameExact": false,
+    "isEmployed": true,
+    "isRecent": true,
+    "isNameUnique": true,
+    "employeeName": "NAGARAJA K"
+  },
+  "statusCode": 101
+}

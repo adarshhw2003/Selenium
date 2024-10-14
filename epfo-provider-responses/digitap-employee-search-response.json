@@ -1,0 +1,100 @@
+{
+    "request_id": "7fbc986e-1f87-43d5-a146-49909121d5ae",
+    "result_code": 101,
+    "http_response_code": "200",
+    "client_ref_num": "00495568-6db4-460b-9989-f24b4b6f4f77",
+    "result": {
+      "employee_name": "MALTHURKAR CHINNA AKKOJI",
+      "is_name_exact": true,
+      "is_name_unique": true,
+      "is_name_match": true,
+      "is_recent": true,
+      "is_pf_found_latest_month": false,
+      "is_employed_wo_unique": false,
+      "is_employed": false,
+      "matches": [
+        {
+          "name": "MALTHURKAR CHINNA AKKOJI",
+          "confidence": 1,
+          "est_id": "APHYD3352263000",
+          "epf_history": {
+            "AUG-24": "NA",
+            "JUL-24": "NA",
+            "JUN-24": "true"
+          }
+        },
+        {
+          "name": "MALTHURKAR GULBARGA KAJA",
+          "confidence": 0.6,
+          "est_id": "APHYD3352263000",
+          "epf_history": {
+            "AUG-24": "NA",
+            "JUL-24": "NA",
+            "JUN-24": "true"
+          }
+        }
+      ],
+      "organization_name": "PRONOEO TECHNOLOGIES PRIVATE LIMITED",
+      "est_info": [
+        {
+          "establishment_details": {
+            "establishment_name": "PRONOEO TECHNOLOGIES PRIVATE LIMITED",
+            "establishment_code": "APHYD3352263000",
+            "pan_status": "VERIFIED",
+            "section_applicable": "OTHER ESTABLISHMENTS IN WHICH EMPLOYING 20 OR MORE PERSONS AND NOTIFIED BY THE CENTRAL GOVT.",
+            "esic_code": "",
+            "ownership_type": "Private Limited Company",
+            "address": "Level-182, Spcion Tower, Next To Western Hotel, Mind Space",
+            "city": "Hitech City Hyderabad",
+            "state": "TELANGANA",
+            "district": "HYDERABAD",
+            "pin_code": "500081",
+            "country": "India",
+            "epfo_office_address": "Bhavishyanidhi Bhawan, No 34763, Barkatpura Chaman,",
+            "epfo_office_name": "HYDERABAD",
+            "zone": "ANDHRA PRADESH AND ORISSA",
+            "primary_business_activity": "KNOWLEDGE OR TRAINING INSTITUTION",
+            "date_of_setup": "11-05-2012",
+            "region": "AP - HYDERABAD",
+            "est_contact": "9848407524",
+            "est_email": "pronoeo28@gmail.com"
+          },
+          "establishment_status": {
+            "exemption_status": "PF UNEXEMPTED, PENSION UNEXEMPTED, EDLI UNEXEMPTED",
+            "working_status": "LIVE ESTABLISHMENT",
+            "coverage_section": "0001(3)(b)",
+            "actionable_status": "ACTIONABLE ESTABLISHMENT",
+            "date_of_coverage": "01-06-2024"
+          },
+          "validity_status": {
+            "establishment_code": "APHYD3352263000",
+            "establishment_name": "PRONOEO TECHNOLOGIES PRIVATE LIMITED",
+            "establishment_status": "CODE NO ALLOTTED WAS AFTER ONLINE REGISTRATION STARTED.",
+            "registration_status_on_ecr_portal": "PERMANENT LOGIN CREATED BY OWNER ON ECR PORTAL",
+            "post_coverage_status": ""
+          },
+          "epf_history_detailed": [
+            {
+              "total_amount": null,
+              "employees_count": null,
+              "wage_month": "AUG-24"
+            },
+            {
+              "total_amount": null,
+              "employees_count": null,
+              "wage_month": "JUL-24"
+            },
+            {
+              "total_amount": 5651,
+              "employees_count": 13,
+              "wage_month": "JUN-24"
+            }
+          ]
+        }
+      ]
+    },
+    "input_data": {
+      "employer_name": "PRONOEO TECHNOLOGIES PRIVATE LIMITED",
+      "employee_name": "MALTHURKAR CHINNA AKKOJI"
+    }
+  }
